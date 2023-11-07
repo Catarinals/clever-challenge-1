@@ -3,7 +3,8 @@ h2 {
 }
 
 .container-1,
-.container-2 {
+.container-2,
+.container-3 {
   border: 1px solid gray;
   margin: 20 auto;
   width: 75%;
