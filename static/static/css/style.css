@@ -2,21 +2,28 @@ h2 {
   text-align: center;
 }
 
-.container-1 {
+.container-1,
+.container-2 {
   border: 1px solid gray;
   margin: 20 auto;
   width: 75%;
   text-align: center;
 }
-.flex-box-container-1 {
+.flex-box-container-1,
+.flex-box-container-2 {
   display: flex;
   padding: 10px;
   justify-content: space-around;
   flex-wrap: wrap;
+  row-gap: 40px;
 }
 
 .flex-box-container-1 div {
   display: flex;
   padding: 10px;
   align-items: center;
+}
+
+.flex-box-container-2 img {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
 }
