@@ -25,3 +25,13 @@ function generateCat() {
 }
 
 // Challenge 3
+function rpsGame(yourChoice) {
+  console.log(yourChoice);
+  var humanChoice, botChoice;
+  // humanChoice = yourChoice.id;
+  // botChoice =
+
+  // results = decideWinner(humanChoice, botChoice);
+  // message = finalMessage(results); // {message':'You won!', 'color': 'green'}
+  rpsFrontEnd(yourChoice.id, botChoice, message);
+}
